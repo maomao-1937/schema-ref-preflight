@@ -1,0 +1,11 @@
+[
+  {"args": ["schema_ref_preflight.py", "examples/clean.json", "--json"], "exit": 0},
+  {"args": ["schema_ref_preflight.py", "examples/dangling.json", "--json"], "exit": 1},
+  {"args": ["schema_ref_preflight.py", "examples/annotation-target.json"], "exit": 1},
+  {"args": ["schema_ref_preflight.py", "examples/escaped.json", "--json"], "exit": 0},
+  {"args": ["schema_ref_preflight.py", "examples/recursive.json"], "exit": 0},
+  {"args": ["schema_ref_preflight.py", "examples/external.json", "--json"], "exit": 2},
+  {"args": ["schema_ref_preflight.py", "examples/nested-scope.json"], "exit": 2},
+  {"args": ["schema_ref_preflight.py", "examples/boolean.json"], "exit": 0},
+  {"args": ["schema_ref_preflight.py", "examples/clean.json", "--max-bytes", "10"], "exit": 2}
+]

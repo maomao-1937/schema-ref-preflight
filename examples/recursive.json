@@ -1,0 +1,1 @@
+{"$defs": {"node": {"properties": {"next": {"$ref": "#/$defs/node"}}}}, "$ref": "#/$defs/node"}

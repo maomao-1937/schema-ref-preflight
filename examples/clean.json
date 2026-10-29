@@ -1,0 +1,5 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {"label": {"type": "string"}},
+  "properties": {"name": {"$ref": "#/$defs/label"}}
+}
